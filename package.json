@@ -1,0 +1,26 @@
+{
+  "name": "npm-components-be",
+  "version": "1.0.0",
+  "description": "building and publishing a backend functions to ( https://www.npmjs.com )",
+  "main": "dist/components/index.js",
+  "types": "dist/components/index.d.ts",
+  "author": "topwara",
+  "license": "ISC",
+  "keywords": [],
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "rm -rf dist/ && tsc"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1657.0",
+    "dotenv": "^16.4.5",
+    "js-base64": "^3.7.7",
+    "prettier": "^3.3.2",
+    "tslib": "^2.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
